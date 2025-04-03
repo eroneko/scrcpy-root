@@ -5,6 +5,9 @@ on:
     inputs:
       name:
         description: 'Version name (default is ref name)'
+  push:
+    branches: [ "dev" ]
+    
 
 env:
   # $VERSION is used by release scripts
